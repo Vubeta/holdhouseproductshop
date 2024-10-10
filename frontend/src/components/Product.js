@@ -1,7 +1,7 @@
 import {Badge} from "react-bootstrap";
 import GridCard from "./child/card/Cards";
 
-function Product() {
+const Product = () => {
     return (
         <div>
             <h4 style={{margin: '1%'}}>
@@ -12,6 +12,7 @@ function Product() {
                 Sản phẩm mới <Badge bg="secondary">New</Badge>
             </h4>
             <GridCard></GridCard>
+
         </div>
     );
 }

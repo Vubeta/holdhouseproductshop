@@ -1,7 +1,21 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+  "products": [
+    { "id": "1",
+      "title": "Cân điện tử LABUBU ",
+      "price": "19,600",
+      "url": "https://pos.nvncdn.com/e8033b-157317/ps/20241005_vdlnqFC8Lr.jpeg" },
+    { "id": "2",
+      "title": "Nồi Chiên Không Dầu CAMEL 10L \"(BH do lỗi NSX)\" ",
+      "price": "200,000",
+      "url": "https://pos.nvncdn.com/e8033b-157317/ps/20240418_pXPNVmb8rX.jpeg" },
+    { "id": "3",
+      "title": "Bộ cây lau nhà ly tâm GOSO 360 KHÔNG HỘP - 2 miếng thay ",
+      "price": "25,500",
+      "url": "https://pos.nvncdn.com/e8033b-157317/ps/20240713_o2bHRkIoF5.jpeg" },
+    { "id": "4",
+      "title": "Bộ lau nhà GOSO PLUS 2024 KHÔNG HỘP - 2 miếng thay cao cấp ",
+      "price": "50,000",
+      "url": "https://pos.nvncdn.com/e8033b-157317/ps/20240709_r1tnm54Yb5.jpeg" }
   ],
   "comments": [
     { "id": "1", "text": "a comment about post 1", "postId": "1" },
