@@ -1,0 +1,51 @@
+.fab.facebook, .fab.instagram, .fab.youtube {
+    color: #63635C; /* Màu Primary (Facebook) */
+    height: 45px;
+    font-size: 45px;
+}
+
+.fab.facebook {
+    width: 30px;
+}
+
+.fab.instagram, .fab.youtube {
+    width: 50px;
+}
+
+.fab:hover.facebook {
+    color: #007bff; /* Màu Primary (Facebook) */
+}
+
+.fab:hover.instagram {
+    color: #D62976; /* Màu Warning (Instagram) */
+}
+
+.fab:hover.youtube {
+    color: #dc3545; /* Màu Danger (YouTube) */
+}
+
+.fb-icon,.ig-icon,.yt-icon,.zalo-icon {
+    vertical-align: middle;
+}
+
+.zalo-icon.zalo-svg {
+    fill: #63635C; /* Màu mặc định cho Zalo */
+}
+
+.zalo-icon:hover .zalo-svg {
+    fill: #2962ff; /* Màu khi hover */
+}
+
+.btn-info.zalo-svg {
+    fill: #17a2b8; /* Màu mặc định cho Zalo */
+}
+
+.btn.ft-icon {
+    width: 50px;             /* Kích thước chiều rộng */
+    height: 50px;            /* Kích thước chiều cao */
+    border-radius: 50%;      /* Tạo hình tròn */
+    display: flex;           /* Để căn giữa nội dung */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    justify-content: center;  /* Căn giữa theo chiều ngang */
+    font-size: 24px;         /* Kích thước biểu tượng */
+}
